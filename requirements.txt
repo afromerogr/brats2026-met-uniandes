@@ -1,0 +1,13 @@
+# Core framework
+nnunetv2==2.7.0
+
+# nnU-Net v2 pulls in torch, numpy, SimpleITK, batchgenerators, etc.
+# Pinned extras below are the versions used for training/inference.
+# Adjust torch to match your CUDA/driver.
+
+torch>=2.0
+numpy>=1.24
+SimpleITK>=2.3
+nibabel>=5.0
+scipy>=1.10
+scikit-image>=0.21
